@@ -1,0 +1,37 @@
+.subscribe__form {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer__label {
+    flex-grow: 1;
+    margin-right: 12px;
+}
+
+.footer__input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 0 16px;
+    color: $primary-bg-color;
+
+    &::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.subscribe__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-icon {
+        margin-left: 10px;
+        fill: $primary-bg-color;
+    }
+}

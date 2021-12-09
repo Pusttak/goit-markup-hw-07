@@ -1,0 +1,20 @@
+
+.address__text {
+    margin-bottom: 9px;
+}
+
+.address__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address__link {
+    color: $footer-link-color;   
+    text-decoration: none;
+
+    transition: color $duration-animation $cubic-bezier;
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+}
