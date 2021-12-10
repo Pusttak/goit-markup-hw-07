@@ -1,5 +1,5 @@
 .form__subject{
-    margin: 0 0 12px;
+    margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
@@ -9,14 +9,14 @@
 
 .form__label {
     display: block;
-}
 
-.form__label-line {
-    margin-bottom: 10px;;
-}
+    &-line {
+        margin-bottom: 10px;;
+    }
 
-.form__label-textarea {
-    margin-bottom: 20px;
+    &-textarea {
+        margin-bottom: 20px;
+    }
 }
 
 .form__input {
