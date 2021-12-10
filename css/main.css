@@ -287,6 +287,10 @@ address {
   font-style: normal;
 }
 
+button {
+  cursor: pointer;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -932,7 +936,6 @@ body {
   border-radius: 50%;
   background: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  cursor: pointer;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
